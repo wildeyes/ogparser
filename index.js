@@ -21,7 +21,7 @@ class OpenGraphParser {
     for (let index = 0; index < meta.length; index += 1) {
       const elem = meta[index];
       const attribs = elem.attribs;
-      const property = attribs.property;
+      const property = attribs.name;
 
       if (property === undefined) {
         continue;
